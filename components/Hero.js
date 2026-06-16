@@ -1,4 +1,4 @@
-import Image from 'next/image'
+'use client'
 
 const WA_NUMBER = '6285943776945'
 const WA_INFO = encodeURIComponent('Halo Phoenix Gymnastics! Boleh saya tahu lebih lanjut tentang program dan jadwal kelas?')
@@ -39,10 +39,15 @@ export default function Hero() {
             ))}
           </div>
         </div>
+
         <div className="w-full md:w-72 flex-shrink-0">
           <div className="bg-white border-2 border-phoenix-500 rounded-3xl p-7 text-center">
-            <div className="w-28 h-28 rounded-full bg-phoenix-100 border-4 border-phoenix-500 mx-auto mb-4 flex items-center justify-center overflow-hidden relative">
-              <img src="/images/rifda.jpg" alt="Rifda" className="w-full h-full object-cover" />
+            <div className="w-28 h-28 rounded-full border-4 border-phoenix-500 mx-auto mb-4 overflow-hidden bg-phoenix-100">
+              <img
+                src="/images/rifda.jpg"
+                alt="Rifda Irfanaluthfi"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             <h3 className="font-rajdhani font-bold text-xl text-gray-900 mb-1">Rifda Irfanaluthfi</h3>
             <p className="text-xs font-bold tracking-widest text-phoenix-500 uppercase mb-4">Kepala Pelatih · Olympian Indonesia</p>
