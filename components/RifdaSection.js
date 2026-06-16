@@ -16,10 +16,9 @@ export default function RifdaSection() {
         </h2>
         <div className="flex flex-col md:flex-row gap-10 items-start">
           <div className="w-full md:w-60 flex-shrink-0">
-            <div className="w-56 h-64 rounded-2xl bg-phoenix-100 border-4 border-phoenix-500 mx-auto flex items-center justify-center mb-5 overflow-hidden">
-              <div className="w-56 h-64 rounded-2xl border-4 border-phoenix-500 mx-auto mb-5 overflow-hidden">
+           <div className="w-56 h-64 rounded-2xl overflow-hidden mx-auto mb-5">
   <img
-    src="/images/rifda-olympic.jpg"
+    src="/images/rifda.jpg"
     alt="Rifda Irfanaluthfi"
     className="w-full h-full object-cover object-top"
   />
