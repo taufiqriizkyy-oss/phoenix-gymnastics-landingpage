@@ -19,7 +19,7 @@ export default function RifdaSection() {
             <div className="w-56 h-64 rounded-2xl bg-phoenix-100 border-4 border-phoenix-500 mx-auto flex items-center justify-center mb-5 overflow-hidden">
               <div className="w-56 h-64 rounded-2xl border-4 border-phoenix-500 mx-auto mb-5 overflow-hidden">
   <img
-    src="/images/rifda.jpg"
+    src="/images/rifda-olympic.jpg"
     alt="Rifda Irfanaluthfi"
     className="w-full h-full object-cover object-top"
   />
