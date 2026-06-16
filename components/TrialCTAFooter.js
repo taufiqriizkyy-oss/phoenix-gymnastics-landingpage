@@ -60,7 +60,7 @@ export function Footer() {
         <span className="font-rajdhani font-bold text-lg tracking-widest text-phoenix-500">PHOENIX GYMNASTICS</span>
         <p className="text-xs text-gray-500">© 2025 Phoenix Gymnastics Academy. All rights reserved.</p>
         <div className="flex gap-6">
-          <a href="https://instagram.com/phoenix.gymnastics" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-phoenix-500 transition-colors">Instagram</a>
+          <a href="https://instagram.com/phoenixgymacademy" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-phoenix-500 transition-colors">Instagram</a>
           <a href={`https://wa.me/${WA_NUMBER}`} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-phoenix-500 transition-colors">WhatsApp</a>
         </div>
       </div>

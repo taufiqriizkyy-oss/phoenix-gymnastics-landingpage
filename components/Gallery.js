@@ -51,7 +51,7 @@ export default function Gallery() {
         </div>
 
         <div className="text-center mt-8">
-          <a href="https://www.instagram.com/phoenix.gymnastics" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.instagram.com/phoenixgymacademy" target="_blank" rel="noopener noreferrer"
             className="inline-block bg-phoenix-500 text-white border-2 border-phoenix-500 px-8 py-4 rounded-full font-rajdhani font-bold tracking-wide hover:bg-white hover:text-phoenix-500 transition-all">
             Lihat Lebih Banyak di Instagram →
           </a>
