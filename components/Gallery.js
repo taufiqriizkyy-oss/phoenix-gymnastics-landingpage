@@ -1,32 +1,6 @@
 'use client'
 
-const photos = [
-  { src: '/images/rifda-training.png', label: 'Rifda Melatih Langsung', featured: true },
-  { src: '/images/kids-handstand.png', label: 'Sesi Handstand' },
-  { src: '/images/kids-smile.jpg',     label: 'Momen Bahagia' },
-  { src: '/images/kids-cartwheel.png', label: 'Cartwheel & Roll' },
-  { src: '/images/stretching.png',     label: 'Stretching Sesi' },
-  { src: '/images/team.jpg',           label: 'Kebersamaan Tim' },
-  { src: '/images/achievement.png',    label: 'Prestasi & Event' },
-]
-
-function Photo({ src, label, className }) {
-  return (
-    <div className={`relative rounded-2xl overflow-hidden bg-phoenix-100 ${className}`}>
-      <img
-        src={src}
-        alt={label}
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      <div className="absolute bottom-2 left-2 bg-phoenix-500 text-white text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-full z-10">
-        {label}
-      </div>
-    </div>
-  )
-}
-
 export default function Gallery() {
-  const [featured, ...rest] = photos
   return (
     <section id="galeri" className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
@@ -38,21 +12,45 @@ export default function Gallery() {
           Foto berbicara lebih dari seribu kata. Ini adalah keseharian anak-anak Phoenix.
         </p>
 
-        <div className="grid grid-cols-3 gap-3 mb-3">
-          <Photo src={featured.src} label={featured.label} className="col-span-2 h-64" />
+        {/* Masonry-style grid dengan rasio berbeda */}
+        <div className="grid grid-cols-3 gap-3">
+
+          {/* Col 1 */}
           <div className="flex flex-col gap-3">
-            <Photo src={rest[0].src} label={rest[0].label} className="h-[126px]" />
-            <Photo src={rest[1].src} label={rest[1].label} className="h-[126px]" />
+            <div className="rounded-2xl overflow-hidden h-64">
+              <img src="/images/rifda-training.png" alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden h-40">
+              <img src="/images/kids-smile.jpg" alt="" className="w-full h-full object-cover" />
+            </div>
           </div>
+
+          {/* Col 2 */}
+          <div className="flex flex-col gap-3">
+            <div className="rounded-2xl overflow-hidden h-40">
+              <img src="/images/kids-handstand.png" alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden h-52">
+              <img src="/images/team.jpg" alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden h-32">
+              <img src="/images/achievement.png" alt="" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          {/* Col 3 */}
+          <div className="flex flex-col gap-3">
+            <div className="rounded-2xl overflow-hidden h-48">
+              <img src="/images/stretching.png" alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden h-56">
+              <img src="/images/kids-cartwheel.png" alt="" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
         </div>
 
-        <div className="grid grid-cols-3 gap-3 mb-8">
-          {rest.slice(2).map(({ src, label }) => (
-            <Photo key={label} src={src} label={label} className="h-40" />
-          ))}
-        </div>
-
-        <div className="text-center">
+        <div className="text-center mt-8">
           <a href="https://www.instagram.com/phoenix.gymnastics" target="_blank" rel="noopener noreferrer"
             className="inline-block bg-phoenix-500 text-white border-2 border-phoenix-500 px-8 py-4 rounded-full font-rajdhani font-bold tracking-wide hover:bg-white hover:text-phoenix-500 transition-all">
             Lihat Lebih Banyak di Instagram →

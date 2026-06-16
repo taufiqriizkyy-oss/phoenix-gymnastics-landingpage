@@ -1,17 +1,12 @@
 'use client'
 import { useState } from 'react'
 
-const WA_NUMBER = '6285943776945'
-const WA_MSG = encodeURIComponent('Halo Phoenix Gymnastics! Saya ingin daftar Trial Class Gratis untuk anak saya.')
-
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   return (
     <nav className="sticky top-0 z-50 bg-white border-b-2 border-phoenix-500">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="font-rajdhani font-bold text-xl tracking-widest text-phoenix-500">
-          PHOENIX GYMNASTICS
-        </span>
+      <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+        <img src="/images/logo.png" alt="Phoenix Gymnastics Academy" className="h-12 w-auto" />
         <div className="hidden md:flex items-center gap-8">
           <a href="#program"   className="text-sm font-medium text-gray-500 hover:text-phoenix-500 transition-colors">Program</a>
           <a href="#pelatih"   className="text-sm font-medium text-gray-500 hover:text-phoenix-500 transition-colors">Pelatih</a>
