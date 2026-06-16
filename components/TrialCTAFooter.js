@@ -1,4 +1,4 @@
-const WA_NUMBER = '6285943776945'
+const WA_NUMBER = '6283897718373'
 const WA_TRIAL = encodeURIComponent('Halo Phoenix Gymnastics! Saya mau daftar Trial Class Gratis. Nama anak saya: [nama]. Usia: [usia] tahun. Mohon informasi jadwal yang tersedia.')
 const WA_INFO  = encodeURIComponent('Halo Phoenix Gymnastics! Saya ingin tahu lebih lanjut tentang program kelas. Terima kasih.')
 

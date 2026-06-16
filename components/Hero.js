@@ -1,6 +1,6 @@
 'use client'
 
-const WA_NUMBER = '6285943776945'
+const WA_NUMBER = '6283897718373'
 const WA_INFO = encodeURIComponent('Halo Phoenix Gymnastics! Boleh saya tahu lebih lanjut tentang program dan jadwal kelas?')
 
 export default function Hero() {
