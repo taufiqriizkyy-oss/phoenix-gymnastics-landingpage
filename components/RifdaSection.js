@@ -3,7 +3,7 @@ const certs = [
   { icon: '🧠', text: 'Sertifikasi Mental Training Atlet' },
   { icon: '🏅', text: 'Pelatih Senam Resmi Indonesia' },
   { icon: '💪', text: 'Sertifikasi Pelatih Fisik & Kondisioning' },
-  { icon: '🌏', text: 'Olympian Indonesia — Rio 2016' },
+  { icon: '🌏', text: 'Olympian Indonesia — Paris 2024' },
 ]
 
 export default function RifdaSection() {
