@@ -35,7 +35,7 @@ export function Testimonials() {
 const faqs = [
   { q: 'Apakah anak saya harus punya pengalaman senam dulu?',   a: 'Tidak perlu sama sekali. Program kami mulai dari nol, usia 3 tahun. Anak yang belum pernah berolahraga pun akan langsung nyaman dan senang.' },
   { q: 'Apakah ada trial class dan apakah berbayar?',           a: 'Trial class kami GRATIS untuk murid baru. Daftar sekarang, bawa anak Anda merasakan langsung Phoenix sebelum memutuskan bergabung — tanpa kewajiban apapun.' },
-  { q: 'Apakah Rifda melatih langsung di kelas?',               a: 'Ya! Rifda terlibat langsung sebagai Kepala Pelatih yang aktif melatih, merancang kurikulum, dan memimpin sesi. Anak Anda belajar langsung dari Olympian Indonesia.' },
+  { q: 'Apakah Rifda melatih langsung di kelas?',               a: 'Ya! Rifda terlibat langsung sebagai Pelatih yang aktif melatih, merancang kurikulum, dan memimpin sesi. Anak Anda belajar langsung dari Olympian Indonesia.' },
   { q: 'Apakah aman untuk anak yang masih sangat kecil?',       a: 'Keamanan adalah prioritas utama. Semua peralatan sesuai standar internasional. Rifda memiliki latar belakang ilmiah kepelatihan yang memastikan setiap gerakan diajarkan dengan teknik dan keamanan yang benar.' },
   { q: 'Berapa kali latihan per minggu?',                        a: 'Dimulai dari 2x seminggu untuk kelas regular. Ada opsi intensif 4x seminggu untuk yang ingin berkembang lebih cepat.' },
 ]
